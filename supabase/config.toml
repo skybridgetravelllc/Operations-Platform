@@ -1,0 +1,14 @@
+project_id = "cysneoxmhwkbkhqdulwm"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://cysneoxmhwkbkhqdulwm.supabase.co"]
+
+[edge_runtime]
+enabled = true
